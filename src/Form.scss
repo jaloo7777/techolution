@@ -1,0 +1,22 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  padding: 5rem;
+
+  &__div {
+    margin: 10px;
+
+    &__field {
+      width: 100%;
+      padding: 0.5rem;
+    }
+  }
+  &__button {
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+}

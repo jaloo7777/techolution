@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  // padding: 1rem;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+  &__link {
+    // margin: 10px;
+    background-color: #ccc;
+    padding: 1rem;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+  }
+}
